@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-image: url('images/background.png'); /* Path to your background image */
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-attachment: fixed; /* Keeps the background fixed while scrolling */
+    color: white; /* Set text color to white for better visibility on a dark background */
+    height: 100vh; /* Ensures the body takes up the full viewport height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centers content vertically */
+    align-items: center; /* Centers content horizontally */
+}
+
+input {
+    padding: 10px;
+    width: 700px;
+    border: 2px solid #ff6f61; /* Adds a border to the input */
+    border-radius: 5px; /* Rounds the corners */
+    font-size: 16px;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    color: #333; /* Dark text color for better readability */
+}
+
+button {
+    padding: 10px 20px;
+    margin-left: 10px;
+    margin-top: 30px;
+    background-color: #ff6f61; /* Bright color for the button */
+    color: white; /* White text */
+    border: none; /* Removes the default border */
+    border-radius: 5px; /* Rounds the corners */
+    font-size: 16px;
+    cursor: pointer; /* Changes cursor to pointer on hover */
+}
+
+button:hover {
+    background-color: #ff3b2f; /* Darker shade on hover */
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #ff6f61; /* Bright color for the result text */
+}
