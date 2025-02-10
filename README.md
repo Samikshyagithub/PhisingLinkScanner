@@ -4,6 +4,8 @@
 
 This project is a phishing link scanner that uses machine learning to detect whether a given URL is likely to be a phishing attempt or a safe link. The project comprises a frontend web interface, a backend Flask server with an API endpoint for scanning URLs, and a trained machine learning model that makes predictions.
 
+![Phishing Link Scanner Screenshot](images/image1)
+
 ## Project Structure
 
 
@@ -23,7 +25,7 @@ The machine learning model detects phishing links by analyzing patterns and feat
 The key to accurate detection lies in the quality of the training data and the relevance of the extracted features. Continuously updating the training data and refining the feature extraction process can improve the model's performance over time.
 
 
-![Phishing Link Scanner Screenshot](images/phishing_link_scanner_screenshot.png)
+
 
 
 
