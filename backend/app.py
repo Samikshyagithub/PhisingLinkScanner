@@ -61,9 +61,11 @@ def scan():
 
     # Return the result as JSON
     result = {
-        "message": "Phishing detected!" if prediction == 1 else "Safe link.",
-        "confidence": confidence if prediction == 1 else 1 - confidence
+        "prediction": prediction,
+        "message": "Phishing detected!" if prediction == "phishing" else "Safe link",
+        "confidence": confidence if prediction == "phishing" else 1-confidence
     }
+
     logger.info(f"Prediction result: {result}")
     return jsonify(result), 200
 
